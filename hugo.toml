@@ -1,5 +1,5 @@
 # onvrsn.xyz config file
-# version 0.1.0
+# version 0.1.1
 # theme: hugo-book
 # orginal theme: https://github.com/alex-shpak/hugo-book
 # forked theme: https://github.com/ondvrsn/hugo-book
@@ -39,7 +39,7 @@ enableGitInfo = true
 
 [menu]
 [[menu.before]]
-  name = "Home"
+  name = "home"
   url = "/"
   weight = 10
 
@@ -59,14 +59,14 @@ enableGitInfo = true
   weight = 40
 
 [[menu.before]]
-  name = "-"
-  url = "/"
-  weight = 50
-
-[[menu.before]]
   name = "contact"
   url = "/contact/"
   weight = 50
+
+[[menu.before]]
+  name = "-"
+  url = "/"
+  weight = 60
 
 [[menu.after]]
   name = "Github"

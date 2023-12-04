@@ -6,7 +6,6 @@
 # last modifed: 4 December 2023
 
 baseURL = 'https://ondvrsn.xyz/'
-languageCode = 'ko'
 title = 'ondvrsn.xyz'
 theme = 'hugo-book'
 
@@ -26,6 +25,8 @@ enableGitInfo = true
 # There are different options to translate files
 # See https://gohugo.io/content-management/multilingual/#translation-by-filename
 # And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
+defaultContentLanguage = 'ko'
+defaultContentLanguageInSubdir = true
 [languages]
 [languages.ko]
   languageName = '한글'

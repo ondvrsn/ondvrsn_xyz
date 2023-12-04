@@ -1,5 +1,5 @@
 # onvrsn.xyz config file
-# version 0.1.1
+# version 0.1.2
 # theme: hugo-book
 # orginal theme: https://github.com/alex-shpak/hugo-book
 # forked theme: https://github.com/ondvrsn/hugo-book
@@ -8,6 +8,10 @@
 baseURL = 'https://ondvrsn.xyz/'
 title = 'ondvrsn.xyz'
 theme = 'hugo-book'
+
+# Default content language
+defaultContentLanguage = 'ko'
+defaultContentLanguageInSubdir = true
 
 # Book configuration
 disablePathToLower = true
@@ -25,8 +29,6 @@ enableGitInfo = true
 # There are different options to translate files
 # See https://gohugo.io/content-management/multilingual/#translation-by-filename
 # And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
-defaultContentLanguage = 'ko'
-defaultContentLanguageInSubdir = true
 [languages]
 [languages.ko]
   languageName = '한글'

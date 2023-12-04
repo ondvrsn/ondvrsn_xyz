@@ -1,3 +1,6 @@
 [submodule "public"]
 	path = public
 	url = git@github.com:ondvrsn/ondvrsn.github.io.git
+[submodule "themes/hugo-book"]
+	path = themes/hugo-book
+	url = git@github.com:ondvrsn/hugo-book.git
